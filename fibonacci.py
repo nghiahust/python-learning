@@ -15,13 +15,13 @@ def fibonacci_recursive(n):
     else:
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
+fibo = {}
+fibo[0] = 0
+fibo[1] = 1
 def fibonacci_dynamic(n):
-    fibo = {}
-    fibo[0] = 0
-    fibo[1] = 1
     for i in reversed(range(n + 1)):
         if i in fibo:
             return fibo[i]
         else:
-            fibo[i] = fibo[i - 1] + fibo[i - 2]
+            fibo[i] = fibonacci_dynamic(i - 1) + fibonacci_dynamic(i - 2)
             return fibo[i]
