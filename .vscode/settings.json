@@ -3,5 +3,6 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pycodestyleEnabled": true,
-    "python.pythonPath": "C:\\Users\\hatro\\anaconda3\\envs\\nghiaht\\python.exe"
+    "python.pythonPath": "C:\\Users\\hatro\\anaconda3\\envs\\nghiaht\\python.exe",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
 }
