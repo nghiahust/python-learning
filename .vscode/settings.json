@@ -1,8 +1,9 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
     "python.pythonPath": "C:\\Users\\hatro\\anaconda3\\envs\\nghiaht\\python.exe",
-    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "python.autoComplete.addBrackets": true
 }
